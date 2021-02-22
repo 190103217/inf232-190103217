@@ -18,5 +18,8 @@ Route::get('/name', function () {
     return view('name');
 });
 Route::get('/n', function () {
-    return "hi";
+    return view('Hii');
+});
+Route::get('/o', function () {
+    return view('one');
 });
